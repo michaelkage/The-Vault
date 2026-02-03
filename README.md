@@ -12,3 +12,13 @@
 
 ## 🛠️ Hardware & Gear
 - My PC Build Specs (Coming Soon)
+
+### 🎨 Sick Color Palettes
+- **Cyber-Acid:** `#0D1117` | `#00F2FF` | `#9DFF00`
+- **Vapor-Wave:** `#1A1A2E` | `#E94560` | `#0F3460`
+- **Tokyo-Night:** `#1A1B26` | `#7AA2F7` | `#BB9AF7`
+
+### ⚡ Hacker Tricks & Terminal Shortcuts
+- `code .` : Open current folder in VS Code instantly.
+- `git commit -am "message"` : Stage and commit all changes in one shot.
+- `Ctrl + Shift + C` : Instant "Inspect Element" to deconstruct any site's UI.
