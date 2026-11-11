@@ -1,24 +1,33 @@
 # 🏛️ The Vault
 
-> A "second brain" for tech, AI, and development resources.
+> A curated second brain for AI, development, design, tools and hardware.
 
-## 🧠 AI & Prompt Engineering
-- [ChatGPT System Prompts](https://example.com) - Best prompts for coding.
-- [Midjourney Styles](https://example.com) - Visual reference guide.
+**[Open the live Vault →](https://michaelkage.github.io/The-Vault/)**
 
-## 💻 Developer Cheatsheets
-- [Git Commands](https://example.com) - The "Hacker" basics.
-- [Tailwind CSS Glows](https://example.com) - How to make things neon.
+The Vault is a practical reference library: useful links and commands worth keeping close, without turning your bookmarks into another mess.
 
-## 🛠️ Hardware & Gear
-- My PC Build Specs (Coming Soon)
+## What's inside
 
-### 🎨 Sick Color Palettes
-- **Cyber-Acid:** `#0D1117` | `#00F2FF` | `#9DFF00`
-- **Vapor-Wave:** `#1A1A2E` | `#E94560` | `#0F3460`
-- **Tokyo-Night:** `#1A1B26` | `#7AA2F7` | `#BB9AF7`
+- **AI & prompt engineering:** official prompt guides, model documentation and practical examples.
+- **Developer references:** Git, GitHub, web platform, CSS and browser compatibility docs.
+- **Design fuel:** icons, typography and colour tools.
+- **Tools:** Windows utilities and terminal references.
+- **Hardware:** PC build planning resources. Personal component specs will be added when verified.
 
-### ⚡ Hacker Tricks & Terminal Shortcuts
-- `code .` : Open current folder in VS Code instantly.
-- `git commit -am "message"` : Stage and commit all changes in one shot.
-- `Ctrl + Shift + C` : Instant "Inspect Element" to deconstruct any site's UI.
+## Using the site
+
+- Search across titles, descriptions, categories and tags.
+- Filter by topic or show only saved resources.
+- Save favourites locally in your browser (saved items stay on that device/browser).
+- Copy common Git and terminal commands.
+- Open source documentation in a new tab.
+
+## Contributing
+
+Add resources that are genuinely useful and preferably link to primary documentation. Include a short description and a category. Avoid placeholder URLs, duplicates and unverified personal hardware details.
+
+The site is a single static HTML file in `docs/index.html`; it has no JavaScript package dependencies or build step.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
