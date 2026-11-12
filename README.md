@@ -1,32 +1,59 @@
-# 🏛️ The Vault
+# The Vault
 
-> A curated second brain for AI, development, design, tools and hardware.
+> A searchable second brain and live directory of the projects, tools, references and workflows worth keeping close.
 
 **[Open the live Vault →](https://michaelkage.github.io/The-Vault/)**
 
-The Vault is a practical reference library: useful links and commands worth keeping close, without turning your bookmarks into another mess.
+The Vault now has two connected collections:
 
-## What's inside
+- **Resource index** — curated primary documentation, AI references, developer tools, design resources, hardware research and copy-ready terminal commands.
+- **Project constellation** — a researched directory of public repositories, with concise descriptions, documented maturity labels, source links and verified public demo routes where available.
 
-- **AI & prompt engineering:** official prompt guides, model documentation and practical examples.
-- **Developer references:** Git, GitHub, web platform, CSS and browser compatibility docs.
-- **Design fuel:** icons, typography and colour tools.
-- **Tools:** Windows utilities and terminal references.
-- **Hardware:** PC build planning resources. Personal component specs will be added when verified.
+## Your project ecosystem
 
-## Using the site
+The directory covers the public work represented in the repositories, including:
 
-- Search across titles, descriptions, categories and tags.
-- Filter by topic or show only saved resources.
-- Save favourites locally in your browser (saved items stay on that device/browser).
-- Copy common Git and terminal commands.
-- Open source documentation in a new tab.
+| Area | Projects |
+|---|---|
+| Portfolio & web | MK.SYSTEMS, Campus Plug, JaFaFaWeb, RecordsDataBase |
+| Products | OmniPocket, Vanguard, OmniLauncher |
+| AI & developer infrastructure | Axiom, OmniRoute, AI Gateway |
+| Research & simulation | Life Itself, Terranova, WasteLens |
+| Automation | Daily-Log, UNILAG Watcher, Autonomous Media Network |
+
+The live directory intentionally excludes private repositories and does not expose private project details. Archived projects are not presented as active products. Descriptions and maturity labels are grounded in each public repository's documentation; a prototype is labelled as a prototype rather than dressed up as a production launch.
+
+## Site features
+
+- Search resource and project names, descriptions, tags and categories.
+- Filter resources by topic and projects by ecosystem area.
+- Save resource favourites in the current browser.
+- Copy common Git commands.
+- Open source repositories and documented public demos.
+- Explore documented relationships between Axiom and OmniRoute, Terranova and WasteLens, and the MK.SYSTEMS application gateway.
+
+## Technical notes
+
+- Static GitHub Pages site in `docs/index.html`.
+- No frontend framework, build step or runtime package dependencies.
+- Favourites are stored in browser-local `localStorage`; they do not sync between devices.
+- Project entries are a reviewed snapshot, not a live GitHub API feed. Update them when a repository's README, deployment URL or maturity changes.
+- Private repositories are deliberately omitted from the public site.
+- The hardware build sheet remains unfilled until actual component details are available.
+
+## Development and validation
+
+Requires Node.js 22 or newer.
+
+```bash
+node --test scripts/test/*.test.mjs
+```
+
+The test suite checks the standalone HTML document, inline JavaScript syntax, resource links, local save/filter/copy behavior and project directory coverage.
 
 ## Contributing
 
-Add resources that are genuinely useful and preferably link to primary documentation. Include a short description and a category. Avoid placeholder URLs, duplicates and unverified personal hardware details.
-
-The site is a single static HTML file in `docs/index.html`; it has no JavaScript package dependencies or build step.
+Prefer primary documentation and source repositories. Include accurate descriptions, real destinations and explicit prototype/production status. Do not publish credentials, private repository details, personal data or unverified hardware specifications.
 
 ## License
 

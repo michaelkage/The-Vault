@@ -29,3 +29,15 @@ test("saved resources, category filters and copy controls are wired", () => {
   assert.match(html, /data-filter/);
   assert.match(html, /navigator\.clipboard\.writeText/);
 });
+
+
+test("project directory covers the public portfolio with real repository links", () => {
+  assert.match(html, /const projects = \[/);
+  for (const project of ["Campus Plug", "OmniPocket", "Axiom", "OmniRoute", "Life Itself", "WasteLens", "Daily-Log", "UNILAG Watcher", "Vanguard"]) {
+    assert.ok(html.includes(project), `project entry exists: ${project}`);
+  }
+  assert.match(html, /projectFilters/);
+  assert.match(html, /renderProjects\(\)/);
+  assert.match(html, /escapeHTML/);
+  assert.doesNotMatch(html, /campus-connect-market/);
+});
